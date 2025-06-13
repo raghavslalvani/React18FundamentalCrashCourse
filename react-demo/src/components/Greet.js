@@ -10,3 +10,4 @@ export const Greet = (props) => {
 };
 // export default Greet;
 // This is a simple React component that returns a greeting message.
+// Props are immutable, meaning they cannot be changed by the component that receives them.
