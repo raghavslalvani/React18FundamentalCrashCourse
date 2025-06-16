@@ -1,5 +1,6 @@
 import './App.css';
-import { UserGreeting } from './components/UserGreeting';
+import { NameList } from './components/NameList';
+// import { UserGreeting } from './components/UserGreeting';
 // import { ParentComponent } from './components/ParentComponent';
 // import { ClickHandler } from './components/ClickHandler';
 // import {Greet} from './components/Greet';
@@ -18,7 +19,8 @@ function App() {
       {/* <Message></Message> */}
       {/* <ClickHandler></ClickHandler> */}
       {/* <ParentComponent></ParentComponent> */}
-      <UserGreeting></UserGreeting>
+      {/* <UserGreeting></UserGreeting> */}
+      <NameList></NameList>
     </div>
   );
 }
