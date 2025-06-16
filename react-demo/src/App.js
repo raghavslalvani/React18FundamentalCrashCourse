@@ -1,5 +1,6 @@
 import './App.css';
-import { ClickHandler } from './components/ClickHandler';
+import { ParentComponent } from './components/ParentComponent';
+// import { ClickHandler } from './components/ClickHandler';
 // import {Greet} from './components/Greet';
 // import {Message} from './components/Message';
 
@@ -14,7 +15,8 @@ function App() {
         <p>This is children props</p>
       </Greet> */}
       {/* <Message></Message> */}
-      <ClickHandler></ClickHandler>
+      {/* <ClickHandler></ClickHandler> */}
+      <ParentComponent></ParentComponent>
     </div>
   );
 }
