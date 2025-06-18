@@ -1,5 +1,6 @@
 import './App.css';
-import { Form } from './components/Form';
+import { Postlist } from './components/PostList';
+// import { Form } from './components/Form';
 // import './appStyles.css';
 // import styles from './appStyles.module.css';
 // import { Inline } from './components/Inline';
@@ -30,7 +31,8 @@ function App() {
       {/* <Inline></Inline>
         <h1 className='error'>Error</h1>
         <h1 className={styles.success}>Success</h1> */}
-        <Form></Form>
+        {/* <Form></Form> */}
+        <Postlist></Postlist>
     </div>
   );
 }
