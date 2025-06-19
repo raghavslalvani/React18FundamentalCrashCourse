@@ -1,4 +1,5 @@
 import './App.css';
+import { PostForm } from './components/PostForm';
 import { Postlist } from './components/PostList';
 // import { Form } from './components/Form';
 // import './appStyles.css';
@@ -32,6 +33,7 @@ function App() {
         <h1 className='error'>Error</h1>
         <h1 className={styles.success}>Success</h1> */}
         {/* <Form></Form> */}
+        <PostForm></PostForm>
         <Postlist></Postlist>
     </div>
   );
